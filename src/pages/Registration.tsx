@@ -4,7 +4,7 @@ function Registration() {
     return (
         <>
             <div>Registration</div>
-            <NavLink to={"/success"}>registration</NavLink>
+            <NavLink to={"/success"}>success</NavLink>
         </>
     );
 }

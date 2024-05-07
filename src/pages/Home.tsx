@@ -1,10 +1,11 @@
-import { NavLink } from "react-router-dom";
+import Heading from "../components/Heading";
+import Hero from "../components/Hero";
 
 function Home() {
     return (
         <>
-            <div>Home</div>
-            <NavLink to={"/registration"}>registration</NavLink>
+            <Heading />
+            <Hero />
         </>
     );
 }

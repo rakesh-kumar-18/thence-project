@@ -6,7 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      manrope: ['Manrope', 'sans-serif'],
+      grace: ['Covered By Your Grace', 'cursive']
+    }
   },
   plugins: [],
-}
-
+};
