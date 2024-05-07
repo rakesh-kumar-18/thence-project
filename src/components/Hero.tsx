@@ -8,13 +8,13 @@ function Hero() {
     return (
         <div className="mt-16">
             <div className="text-center">
-                <p className="font-grace text-[#2DA950] text-5xl mb-3">Success stories</p>
+                <p className="font-grace text-[#2DA950] text-5xl mb-1">Success stories</p>
                 <div className="text-7xl font-semibold">
                     <h1>Every success journey</h1>
                     <h1>we’ve encountered.</h1>
                 </div>
             </div>
-            <div className="flex justify-evenly mx-20 mt-24">
+            <div className="flex justify-around mx-20 mt-24">
                 <div className="relative">
                     <img
                         src={HeroImg}
@@ -31,7 +31,7 @@ function Hero() {
                             <p>availability</p>
                         </div>
                     </div>
-                    <div className="bg-[#002E18] absolute -right-10 -bottom-8 rounded-2xl p-6 shadow-2xl">
+                    <div className="bg-[#002E18] absolute -right-14 -bottom-8 rounded-2xl p-6 shadow-2xl">
                         <div className="flex items-baseline mb-4">
                             <h1 className="text-[#FFFFFF] text-4xl font-bold mr-2">$0.5</h1>
                             <p className="text-[#A6A3A0]">MILLION</p>

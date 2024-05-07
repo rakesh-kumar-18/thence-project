@@ -13,7 +13,7 @@ function Heading() {
         <div>
             <div className="flex justify-between items-center m-4 border-[1px] border-[#EAEAEA] rounded-full p-3 pl-10">
                 <div>
-                    <img className="w-20 cursor-pointer" src={Logo} alt="logo" />
+                    <img className="w-24 cursor-pointer" src={Logo} alt="logo" />
                 </div>
                 <div className="flex font-medium">
                     <div onClick={handleClick}>
