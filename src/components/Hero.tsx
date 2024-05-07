@@ -42,7 +42,7 @@ function Hero() {
                             <p>employee costs.</p>
                         </div>
                     </div>
-                    <div className="flex bg-[#FFFFFF] rounded-full absolute bottom-8 -left-12 px-6 py-2">
+                    <div className="flex bg-[#FFFFFF] rounded-full absolute bottom-8 -left-12 px-6 py-2 shadow-2xl">
                         <img src={Rocket} alt="rocket" className="w-[3rem] mr-2" />
                         <div>
                             <p className="font-bold">10 DAYS</p>
