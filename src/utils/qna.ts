@@ -4,11 +4,11 @@ const faqs: Array<{
 }> = [
         {
             question: "Do you offer freelancers?",
-            answer: "sed adipiscing diam donec adipiscing tristique risus nec feugiat in"
+            answer: "viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim sit amet venenatis"
         },
         {
             question: "What’s the guarantee that I will be satisfied with the hired talent?",
-            answer: "lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean et tortor at risus"
+            answer: "ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris"
         },
         {
             question: "Can I hire multiple talents at once?",
@@ -16,7 +16,7 @@ const faqs: Array<{
         },
         {
             question: "Why should I not go to an agency directly?",
-            answer: "sed velit dignissim sodales ut eu sem integer vitae justo"
+            answer: "massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at"
         },
         {
             question: "Who can help me pick a right skillset and duration for me?",

@@ -21,7 +21,7 @@ function Hero() {
                         alt="girl"
                         className="w-[30rem] h-[28rem] rounded-3xl"
                     />
-                    <div className="bg-[#FFFFFF] absolute top-28 -left-20 rounded-2xl p-4 pt-8 pr-8 shadow-2xl">
+                    <div className="bg-[#FFFFFF] absolute top-28 -left-20 rounded-2xl p-4 pt-8 pr-8 shadow-2xl hover:scale-110">
                         <img src={Spark} alt="spark" className="absolute -top-2 -left-3 w-16" />
                         <h1 className="text-4xl font-bold mb-3">40%</h1>
                         <div className="text-[#828282] text-sm">
@@ -31,7 +31,7 @@ function Hero() {
                             <p>availability</p>
                         </div>
                     </div>
-                    <div className="bg-[#002E18] absolute -right-14 -bottom-8 rounded-2xl p-6 shadow-2xl">
+                    <div className="bg-[#002E18] absolute -right-14 -bottom-8 rounded-2xl p-6 shadow-2xl hover:scale-110">
                         <div className="flex items-baseline mb-4">
                             <h1 className="text-[#FFFFFF] text-4xl font-bold mr-2">$0.5</h1>
                             <p className="text-[#A6A3A0]">MILLION</p>
@@ -42,7 +42,7 @@ function Hero() {
                             <p>employee costs.</p>
                         </div>
                     </div>
-                    <div className="flex bg-[#FFFFFF] rounded-full absolute bottom-8 -left-12 px-6 py-2 shadow-2xl">
+                    <div className="flex bg-[#FFFFFF] rounded-full absolute bottom-8 -left-12 px-6 py-2 shadow-2xl hover:scale-110">
                         <img src={Rocket} alt="rocket" className="w-[3rem] mr-2" />
                         <div>
                             <p className="font-bold">10 DAYS</p>

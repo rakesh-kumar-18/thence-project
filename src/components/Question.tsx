@@ -17,7 +17,7 @@ function Question({ question, answer, isLast }: Props) {
         <div className={`my-6 ${!isLast && 'border-b-[1px] border-b-[#D7D7D7]'}`}>
             <div
                 onClick={toggleExpand}
-                className="cursor-pointer text-[#1C1C1C] font-bold mb-4 flex justify-between items-center"
+                className="cursor-pointer text-[#1C1C1C] font-bold mb-6 flex justify-between items-center"
             >
                 <div className="w-3/5">
                     {question}
@@ -26,7 +26,7 @@ function Question({ question, answer, isLast }: Props) {
                     {isExpanded ? '-' : '+'}
                 </div>
             </div>
-            <div className="text-[#617275] text-sm font-medium mb-4 w-11/12">
+            <div className="text-[#617275] text-sm font-medium mb-6 w-11/12">
                 {isExpanded && <div>{answer}</div>}
             </div>
         </div>
